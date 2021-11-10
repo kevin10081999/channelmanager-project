@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="home.css">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="main-nav">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo"><img src="/images/logo-01 (3).png" class="logo" alt="Channels Expert"></label>
+        <ul>
+            <li><div class="box">
+                <form name="search">
+                    <input type="text" class="input" name="txt" placeholder="Search"
+                           onmouseout="document.search.txt.value = ''">
+                </form>
+<!--                <i class="fas fa-search"></i>-->
+            </div></li>
+            <li><a class="active" href="#" >Shto Rezervim</a></li>
+            <li><a href="#">Kontroll Cmimesh</a></li>
+            <li>
+
+
+                <a href="#">Suporti<img src="/icons/letter-i.png" class="settings-icon"></a>
+
+            </li>
+        </ul>
+    </nav>
+
+
+
+
+    <nav class="subnav">
+        <ul>
+            <li><a href="#">Paneli</a></li>
+            <li><a href="#">Kalendari</a></li>
+            <li><a href="#">Rezervimet</a></li>
+            <li><a href="#">Mesazhet</a></li>
+            <li><a href="#">Cmimet</a></li>
+            <li><a href="#">Raportet</a></li>
+            <li><a href="#">Cilesimet</a></li>
+            <li></li>
+        </ul>
+    </nav>
+</body>
+</html>

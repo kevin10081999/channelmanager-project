@@ -1,0 +1,12 @@
+.header1{
+    width:100%;
+    height:80px;
+    display: block;
+    background-color: white;
+}
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+    color: darkblue;
+}
